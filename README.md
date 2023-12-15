@@ -3,24 +3,29 @@ This data engineering project focuses on analyzing Walmart sales data. Its goal 
 
 # Index
 1. [Objective](#Objective)
-2. [O Projeto](#o-projeto)
-   - [1. Busca Pelos Dados](#1-busca-pelos-dados)
-   - [2. Coleta](#2-coleta)
-     - [2.1 Definição do Sistema de Cloud Computing](#21-definição-do-sistema-de-cloud-computing)
-     - [2.2 Recursos de Armazenamento](#22-recursos-de-armazenamento)
-   - [3. Modelagem e Carga](#3-modelagem-e-carga)
-     - [3.1 Conexão Data Lake e Databricks](#31-conexão-data-lake-e-databricks)
-     - [3.2 Criação de Schema](#32-criação-de-schema)
-     - [3.3 Criação das Tabelas da Camada Bronze](#33-criação-das-tabelas-da-camada-bronze)
-     - [3.4 ETL - Extract, Transform e Load (Bronze - Silver)](#34-etl---extract-transform-e-load-bronze---silver)
-     - [3.5 Criação das Tabelas da Camada Silver](#35-criação-das-tabelas-da-camada-silver)
-     - [3.6 ETL - Extract, Transform e Load (Silver - Gold)](#36-etl---extract-transform-e-load-silver---gold)
-     - [3.7 Criação das Tabelas da Camada Gold](#37-criação-das-tabelas-da-camada-gold)
-     - [3.8 Catálogo de Dados](#38-catálogo-de-dados)
-   - [4. Análise](#4-análise)
-     - [4.1 Qualidade dos Dados](#41-qualidade-dos-dados)
-     - [4.2 Solução dos Problemas](#42-solução-dos-problemas)
-    
+
 
 ## Objective
-The objective of this data engineering project is to **develop a data pipeline for collecting, organizing, and analyzing** Walmart sales data. The primary focus is on structuring the data effectively to derive actionable insights into customer purchasing behaviors, patterns, and trends. This includes **ensuring data quality, constructing a data model and establishing a scalable framework** that enables informed decision-making for Walmart's business strategies based on the insights extracted from the analyzed sales data.
+The objective of this data engineering project is to **develop a data pipeline for collecting, organizing, and analyzing** Walmart sales data in Myanmar, country located in the continent of Asia, sharing borders with several countries, including Bangladesh and India. The primary focus is on structuring the data effectively to delivery actionable insights into customer purchasing behaviors and trends. This includes **ensuring data quality, constructing a data model and establishing a scalable framework** that enables informed decision-making for Walmart's business strategies based on the insights extracted from the analyzed sales data. Throughout this investigation, we'll aim to answer the following questions:
+
+- Which product line generates the highest sales revenue?
+- What is the distribution of customer types (e.g., member vs. non-member)?
+- How does gender impact purchasing habits or product preferences?
+- Which products have the highest and lowest unit prices?
+- What is the average quantity sold per product line?
+- Which product lines have the highest and lowest gross income?
+- Are there differences in sales performance among different branches?
+- Which city generates the most sales revenue?
+- What are the preferred payment methods?
+- Is there a relationship between payment method and purchase amount?
+- What is the average rating of products sold?
+- Is there a correlation between product ratings and sales revenue?
+- What is the average tax percentage applied to sales?
+- How does the cost of goods sold (COGS) vary across different product lines?
+
+## Project
+### 1. Searching for Data
+The searching for the data was made by the Kaggle website (https://www.kaggle.com/), the data was found by looking sales around the world. The page where the dataset was found is here: https://www.kaggle.com/datasets/msamhoud/walmart-sales
+
+
+### 2. Data Collection
