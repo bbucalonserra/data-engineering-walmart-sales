@@ -25,7 +25,17 @@ The objective of this data engineering project is to **develop a data pipeline f
 
 ## Project
 ### 1. Searching for Data
+The searching for data is a crucial process of locating and collecting relevant sources of information. It involves exploring various origins, applying extraction methods and ensuring the accurate and reliable acquisition of necessary data for subsequent analysis and processing
 The searching for the data was made by the Kaggle website (https://www.kaggle.com/), the data was found by looking sales around the world. The page where the dataset was found is here: https://www.kaggle.com/datasets/msamhoud/walmart-sales
 
 
 ### 2. Data Collection
+Data collection is the process of collecting information from one oore more sources to be used in analyses, studies, research or decision-making processes. This procedure involves obtaining **raw or processed data** from diverse sources such as websites, databases, devices, social media, among others.
+For this project the data collection will be done using APIs.
+The APIs, or Application Programming Interfaces, serve as intermediaries that allow different software applications to communicate and interact with each other. They specify the methods and data formats that applications can use to request and exchange information. APIs enable seamless data retrieval and integration from various sources, offering standardized access to functionalities or data offered by a service, platform, or application. The most common formats for interaction between APIs include:
+
+- JSON (JavaScript Object Notation): A lightweight, human-readable data interchange format widely used due to its simplicity and ease of parsing
+- XML (eXtensible Markup Language): Though less prevalent today, it's still used in some APIs. It structures data hierarchically but is more verbose compared to JSON
+- REST (Representational State Transfer): Not precisely a data format but an architectural style that utilizes HTTP methods (GET, POST, PUT, DELETE) to access and manipulate resources. Responses are often in JSON or XML
+- SOAP (Simple Object Access Protocol): An XML-based protocol used for exchanging structured information over a network, including remote procedure calls. It's more complex than REST and uses XML to structure data
+- GraphQL: A query language and runtime for APIs that gives clients control over the data they receive. It enables clients to request only the needed fields, potentially reducing bandwidth and enhancing efficiency
